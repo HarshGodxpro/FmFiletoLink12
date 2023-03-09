@@ -63,8 +63,8 @@ async def start(b, m):
                    InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
                    InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
                 ],        
-                [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ", url='https://t.me/zeusbotsnetwork'),
-                 InlineKeyboardButton("ʀᴇᴘᴏ", url='https://github.com/Selfie-bd/Filetolinkdcbot')]
+                [InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇꜱ", url='https://t.me/MovieLandLinkChannel'),
+                 InlineKeyboardButton("ʀᴇᴘᴏ", url='https://github.com/HarshGodxpro')]
                 ]
             ),
             disable_web_page_preview=True
@@ -181,7 +181,7 @@ async def help_handler(bot, message):
                 disable_web_page_preview=True)
             return
     await message.reply_text(
-        text="**⪼ **How to Use Me ?**\n\n⪼ Send Me Any File Or Media From Telegram.\n⪼ I Will Provide External Direct Download Link !\n\n\n⪼Download Link With Fastest Speed ⚡️\n\n\nWarning ⚠️\n⪼ 🔞 Pron Contents Leads To Permanenet Ban You.\n\n⪼ Contact Developer Or Report Bugs : @groupdcs**",
+        text="**⪼ **How to Use Me ?**\n\n⪼ Send Me Any File Or Media From Telegram.\n⪼ I Will Provide External Direct Download Link !\n\n\n⪼Download Link With Fastest Speed ⚡️\n\n\nWarning ⚠️\n⪼ 🔞 Pron Contents Leads To Permanenet Ban You.\n\n⪼ Contact Developer Or Report Bugs : @PROFE07XH**",
   parse_mode="Markdown",
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
@@ -210,7 +210,7 @@ async def about_handler(bot, message):
             if user.status == "banned":
                 await bot.send_message(
                     chat_id=message.chat.id,
-                    text="__Sᴏʀʀʏ Sɪʀ, Yᴏᴜ ᴀʀᴇ Bᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ.__\n\n**[Cᴏɴᴛᴀᴄᴛ Dᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/groupdcs) Tʜᴇʏ Wɪʟʟ Hᴇʟᴘ Yᴏᴜ**",
+                    text="__Sᴏʀʀʏ Sɪʀ, Yᴏᴜ ᴀʀᴇ Bᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ.__\n\n**[Cᴏɴᴛᴀᴄᴛ Dᴇᴠᴇʟᴏᴘᴇʀ](https://t.me/PROFE07XH) Tʜᴇʏ Wɪʟʟ Hᴇʟᴘ Yᴏᴜ**",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -245,7 +245,7 @@ async def about_handler(bot, message):
 ┣⪼<b>⚜ Update : @{Var.UPDATES_CHANNEL}</b>
 ┣⪼<b>🔸Version : 3.1.2</b>
 ┣⪼<b>🔹Last Updated : [ 21-aug-22 ]</b>
-┣⪼<b>✨YouTube Channel: <a href='https://youtube.com/channel/UCP4tsCLaLmJACqJJImknF8g'>Groupdcbots Channel</a></b>
+┣⪼<b>✨YouTube Channel: <a href='https://youtube.com/@violencegaming7662'>PROFE07XH Channel</a></b>
 ┃
 <b>╰━━━━━━━〔THANK YOU〕</b>""",
   parse_mode="html",
